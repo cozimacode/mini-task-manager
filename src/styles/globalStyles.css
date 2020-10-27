@@ -1,0 +1,29 @@
+.MuiAutocomplete-root {
+  margin: 0 10px !important;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  font-size: 14px;
+}
+
+.MuiFormControl-root.MuiFormControl-marginNormal {
+  margin: 10px;
+  width: 180px;
+}
+
+/* .MuiInputBase-root.MuiOutlinedInput-root {
+  
+} */
+
+.MuiTooltip-tooltip {
+  font-size: 13px !important;
+}
+
+.MuiIconButton-root {
+  transition: all ease-in-out 0.5s !important;
+}
+
+.MuiFormLabel-root.Mui-disabled,
+.MuiInputBase-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.7) !important;
+}

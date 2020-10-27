@@ -1,0 +1,74 @@
+.priority {
+  border-radius: 5px;
+  width: 24%;
+  height: 80vh;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 10px 10px 10px 0;
+  background-color: rgb(244, 245, 247);
+}
+
+.priority::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.high,
+.medium,
+.low,
+.done {
+  composes: priority;
+}
+
+.header {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: rgba(207, 207, 207, 0.25);
+  color: rgb(104, 104, 104);
+  color: #fff;
+}
+
+.loading {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.high .header {
+  background-color: #eb5a46;
+}
+
+.medium .header {
+  background-color: #ff9f1a;
+}
+
+.low .header {
+  background-color: #2e2e2e;
+}
+
+.done .header {
+  background-color: #3ca812;
+}
+
+.createIssue {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 50px;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: rgb(104, 104, 104);
+}
+
+.createIssue p {
+  margin: 0 0 3px 5px;
+}
+
+.createIssue:hover {
+  background-color: rgba(207, 207, 207, 0.25);
+  cursor: pointer;
+}

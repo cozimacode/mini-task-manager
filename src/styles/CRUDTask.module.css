@@ -1,0 +1,62 @@
+.main {
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  transition: opacity ease-in-out 2s;
+}
+
+.updating {
+  composes: main;
+  border: 2px dashed black;
+}
+
+.deleting {
+  composes: main;
+  opacity: 0;
+}
+
+/* @keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0.1;
+  }
+} */
+
+.textArea {
+  width: 100%;
+  resize: none;
+  padding: 10px 30px 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.assignUser {
+  display: flex;
+}
+
+.dueDate {
+  display: flex;
+  align-items: center;
+}
+
+.closeIcon {
+  position: absolute !important;
+  top: 3px;
+  right: 3px;
+}

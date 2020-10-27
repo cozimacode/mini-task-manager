@@ -1,0 +1,19 @@
+.users {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.imageSelected {
+  composes: image;
+  border: 3px solid firebrick;
+}
+
+.image:hover {
+  opacity: 0.5;
+}
