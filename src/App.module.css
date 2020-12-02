@@ -1,5 +1,6 @@
 .main {
   width: 80%;
+  max-width: 1300px;
   background-color: #fff;
   margin: auto;
   display: flex;
